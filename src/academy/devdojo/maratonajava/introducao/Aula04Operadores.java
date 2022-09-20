@@ -42,6 +42,19 @@ public class Aula04Operadores {
         System.out.println("isDentroDaLeiMaiorQueTrinta? "+isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta? "+isDentroDaLeiMenorQueTrinta);
 
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000F;
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlaystationCincoCompravel? "+isPlaystationCincoCompravel);
 
+        // atribuicao: =, +=, -=, *=, /=, %=
+        double bonus = 1800;
+        bonus += 1000;
+        System.out.println(bonus);
+        // ++ --
+        int contador = 0;
+        contador ++;
+        System.out.println(contador);
     }
 }
