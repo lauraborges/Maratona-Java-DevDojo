@@ -15,10 +15,14 @@ public class CarroTest01 {
         carro2.modelo = "LX";
         carro2.ano = 2019;
 
+        carro1 = carro2;
+
+        System.out.println("Carro 1");
         System.out.println(carro1.nome);
         System.out.println(carro1.modelo);
         System.out.println(carro1.ano);
 
+        System.out.println("\nCarro 2");
         System.out.println(carro2.nome);
         System.out.println(carro2.modelo);
         System.out.println(carro2.ano);
