@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094b8de8-1449-4e7c-af8f-4d93da59c8b9" name="Changes" comment="Códigos até aula 51 - Orientação a Objetos: Métodos pt 4 a 8 (Retorno, Parâmetro tipo primitivo/referência e this) - Maratona Java DevDjo">
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/dominio/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/CalculadoraTest05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/FuncionarioTest01.java" afterDir="false" />
+    <list default="true" id="094b8de8-1449-4e7c-af8f-4d93da59c8b9" name="Changes" comment="Códigos até aula 53 - Orientação a Objetos: Métodos pt 9 e Exercício - Maratona Java DevDjo">
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/PessoaTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/dominio/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/dominio/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/dominio/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/dominio/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/FuncionarioTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Bintroducaometodos/test/FuncionarioTest01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +59,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="academy.devdojo.maratonajava.introducao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadoraTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Bintroducaometodos.test.CalculadoraTest04" />
-      <module name="Maratona-Java-DevDojo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Bintroducaometodos.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PessoaTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Bintroducaometodos.test.PessoaTest01" />
+      <module name="Maratona-Java-DevDojo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Bintroducaometodos.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FuncionarioTest01" />
+        <item itemvalue="Application.PessoaTest01" />
         <item itemvalue="Application.CalculadoraTest05" />
         <item itemvalue="Application.EstudanteTest02" />
         <item itemvalue="Application.EstudanteTest01" />
-        <item itemvalue="Application.CalculadoraTest04" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664398760670</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Códigos até aula 53 - Orientação a Objetos: Métodos pt 9 e Exercício - Maratona Java DevDjo">
+      <created>1664416951669</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664416951669</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +275,8 @@
     <MESSAGE value="Códigos até aula 44 - Orientação a Objetos: Referência de Objetos - Maratona Java DevDjo" />
     <MESSAGE value="Códigos até aula 46 - Orientação a Objetos: Métodos pt 1, 2 e 3- Maratona Java DevDjo" />
     <MESSAGE value="Códigos até aula 51 - Orientação a Objetos: Métodos pt 4 a 8 (Retorno, Parâmetro tipo primitivo/referência e this) - Maratona Java DevDjo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Códigos até aula 51 - Orientação a Objetos: Métodos pt 4 a 8 (Retorno, Parâmetro tipo primitivo/referência e this) - Maratona Java DevDjo" />
+    <MESSAGE value="Códigos até aula 53 - Orientação a Objetos: Métodos pt 9 e Exercício - Maratona Java DevDjo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Códigos até aula 53 - Orientação a Objetos: Métodos pt 9 e Exercício - Maratona Java DevDjo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
