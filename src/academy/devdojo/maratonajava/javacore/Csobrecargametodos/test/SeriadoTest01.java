@@ -6,8 +6,6 @@ public class SeriadoTest01 {
     public static void main(String[] args) {
         Seriado seriado = new Seriado();
         seriado.init("FRIENDS", "Sitcom", 20, "Comedia");
-
         seriado.imprime();
-
     }
 }

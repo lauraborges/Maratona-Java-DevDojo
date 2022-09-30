@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094b8de8-1449-4e7c-af8f-4d93da59c8b9" name="Changes" comment="Códigos até aula 56 - Orientação a Objetos: Modificadores de acesso - Maratona Java DevDjo">
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Csobrecargametodos/dominio/Seriado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Csobrecargametodos/test/SeriadoTest01.java" afterDir="false" />
+    <list default="true" id="094b8de8-1449-4e7c-af8f-4d93da59c8b9" name="Changes" comment="Códigos até aula 57 - Orientação a Objetos: Sobrecarga de Métodos - Maratona Java DevDojo">
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Dconstrutores/dominio/Seriado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Dconstrutores/test/SeriadoTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Csobrecargametodos/test/SeriadoTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/devdojo/maratonajava/javacore/Csobrecargametodos/test/SeriadoTest01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SeriadoTest01">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="academy.devdojo.maratonajava.javacore.Dconstrutores.test" />
+      <recent name="academy.devdojo.maratonajava.javacore.Dconstrutores.dominio" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.academy.devdojo.maratonajava.javacore.Dconstrutores.test.SeriadoTest01">
     <configuration name="Aula07Arrays02" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.introducao.Aula07Arrays02" />
       <module name="Maratona-Java-DevDojo" />
@@ -66,19 +73,6 @@
     </configuration>
     <configuration name="CalculadoraTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Bintroducaometodos.test.CalculadoraTest05" />
-      <module name="Maratona-Java-DevDojo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Bintroducaometodos.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EstudanteTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Bintroducaometodos.test.EstudanteTest02" />
       <module name="Maratona-Java-DevDojo" />
       <extension name="coverage">
         <pattern>
@@ -129,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="academy.devdojo.maratonajava.javacore.Dconstrutores.test.SeriadoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Dconstrutores.test.SeriadoTest01" />
+      <module name="Maratona-Java-DevDojo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Dconstrutores.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.academy.devdojo.maratonajava.javacore.Dconstrutores.test.SeriadoTest01" />
         <item itemvalue="Application.SeriadoTest01" />
         <item itemvalue="Application.FuncionarioTest01" />
         <item itemvalue="Application.PessoaTest01" />
         <item itemvalue="Application.CalculadoraTest05" />
-        <item itemvalue="Application.EstudanteTest02" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664484086536</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Códigos até aula 57 - Orientação a Objetos: Sobrecarga de Métodos - Maratona Java DevDojo">
+      <created>1664485240870</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664485240870</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +296,8 @@
     <MESSAGE value="Códigos até aula 51 - Orientação a Objetos: Métodos pt 4 a 8 (Retorno, Parâmetro tipo primitivo/referência e this) - Maratona Java DevDjo" />
     <MESSAGE value="Códigos até aula 53 - Orientação a Objetos: Métodos pt 9 e Exercício - Maratona Java DevDjo" />
     <MESSAGE value="Códigos até aula 56 - Orientação a Objetos: Modificadores de acesso - Maratona Java DevDjo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Códigos até aula 56 - Orientação a Objetos: Modificadores de acesso - Maratona Java DevDjo" />
+    <MESSAGE value="Códigos até aula 57 - Orientação a Objetos: Sobrecarga de Métodos - Maratona Java DevDojo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Códigos até aula 57 - Orientação a Objetos: Sobrecarga de Métodos - Maratona Java DevDojo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
